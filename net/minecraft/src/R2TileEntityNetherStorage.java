@@ -53,7 +53,7 @@ public class R2TileEntityNetherStorage extends TileEntity implements IInventory{
     @Override
     public int getSizeInventory() {
         if(getInventory() != null){
-            return getInventory().length;
+            return 27;
         }
         else {
             return 0;
